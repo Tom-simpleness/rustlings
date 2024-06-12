@@ -19,6 +19,16 @@
 // fn calculate_price_of_apples {
 
 // Don't modify this function!
+
+pub fn calculate_price_of_apples(apples :u8) -> u8 {
+    if apples > 40 {
+        apples 
+    }else{
+        apples * 2
+    }
+}
+
+
 #[test]
 fn verify_test() {
     let price1 = calculate_price_of_apples(35);
